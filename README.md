@@ -1,7 +1,3 @@
----
-title: Wishlists
----
-
 # Wishlists
 
 ## Josh
