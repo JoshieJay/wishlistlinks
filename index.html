@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Wishlists</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 1.5rem;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.2);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.5rem;
+    }
+    .card h3 {
+      margin: 1rem 0 0.5rem;
+      font-size: 1.2rem;
+      color: #ffd700;
+    }
+    .card a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 0.3rem 0;
+      transition: color 0.2s ease;
+    }
+    .card a:hover {
+      color: #ffd700;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0,0,0,0.3);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎁 Family Wishlists</h1>
+    <p>Click a category to explore Amazon wishlists</p>
+  </header>
+
+  <div class="container">
+    <!-- Josh -->
+    <div class="card">
+      <h2>Josh</h2>
+      <h3>General</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/39EK8LE79WCHW?ref_=wl_share">General Wishlist</a>
+      <h3>Books</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/1PEX4WLRLRBZ4?ref_=wl_share">Books</a>
+      <h3>Board Games</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/2RPCQXCVLY358?ref_=wl_share">Board Games</a>
+      <h3>Computer Stuff</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/31A54MTS4HMG6?ref_=wl_share">Computer Stuff</a>
+      <h3>Cooking</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/1QVJ9CIGA8U73?ref_=wl_share">Cooking</a>
+      <h3>Disc Golf</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/3JYJW6ME2VM78?ref_=wl_share">Disc Golf</a>
+      <h3>Tools</h3>
+      <a href="https://www.amazon.com/hz/wishlist/ls/226LCHNS3I3IK?ref_=wl_share">Tools</a>
+    </div>
+
+    <!-- Ali -->
+    <div class="card">
+      <h2>Ali</h2>
+      <a href="https://www.amazon.com/hz/wishlist/ls/24SCXG0E00MK3/ref=cm_go_nav_hz">Wishlist</a>
+    </div>
+
+    <!-- Tristan -->
+    <div class="card">
+      <h2>Tristan</h2>
+      <a href="https://www.amazon.com/hz/wishlist/ls/1R05NJ1DVTF6J?ref_=wl_share">Wishlist</a>
+    </div>
+
+    <!-- Josiah -->
+    <div class="card">
+      <h2>Josiah</h2>
+      <a href="https://www.amazon.com/hz/wishlist/ls/1PYAQQW33OZST?ref_=wl_share">Wishlist</a>
+    </div>
+
+    <!-- Finn -->
+    <div class="card">
+      <h2>Finn</h2>
+      <a href="https://www.amazon.com/hz/wishlist/ls/2HY7Y30ANXWOQ/ref=cm_go_nav_hz">Wishlist</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ for the family</p>
+  </footer>
+</body>
+</html>
